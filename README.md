@@ -14,7 +14,6 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
     * [Neural_Networks_and_Deep_Learning](#Neural_Networks_and_Deep_Learning)
     * [Random_Forest](#Random_forest)
     * [Support Vector Machine(SVM)](#Support-Vector-Machine)
-- - 
 
 ### Preprocess the Data
 * Preprocessing was conducted to the dataset prior to fitting the models.
@@ -30,15 +29,16 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 ### Reporting
 In this project I used five machine learning models in order to tarin, test and classifying candidate exoplanets from the raw dataset. In the reporting section summary about the findings, assumptions and comparison of models is executed.
 
-### K-Nearest Neighbors Algorithm
 
-### Logistic Regression
+ #### Logistic Regression
 
-### Neural Networks and Deep_Learning
-
-### Random Forest
-
-### Support Vector Machine(SVM)
+ #### Random Forest
+ 
+ #### K-Nearest Neighbors Algorithm
+ 
+ #### Support Vector Machine(SVM)
+ 
+ #### Neural Networks and Deep_Learning
 - - -
 
 ## Resources
@@ -53,18 +53,5 @@ In this project I used five machine learning models in order to tarin, test and 
 
 - - -
 
-## Hints and Considerations
-
-* Start by cleaning the data, removing unnecessary columns, and scaling the data.
-
-* Not all variables are significant be sure to remove any insignificant variables.
-
-* Make sure your `sklearn` package is up to date.
-
-* Try a simple model first, and then tune the model using `GridSearch`.
-
-- - -
-
-## Submission
 
 ##### © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
