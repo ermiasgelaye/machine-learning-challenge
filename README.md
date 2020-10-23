@@ -10,21 +10,25 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 2. [Tune the models](#Tune-Model-Parameters)
 3. [Compare two or more models](#Evaluate-Model-Performance)
 
-- - -
-
-## Instructions
+### Models Used
+In this project I used five machine learning models in order to tarin, test and classifying candidate exoplanets from the raw dataset. In the reporting section summary about the findings and assumptions of models is described. 
+4.[K-Nearest Neighbors Algorithm](#K-Nearest-Neighbors-Algorithm) 
+5.[Logistic_Regression](Logistic-Regression)
+6.[Neural_Networks_and_Deep_Learning](#Neural_Networks_and_Deep_Learning)
+7.[Random_Forest](#Random_forest)
+8.[Support Vector Machine(SVM)](Support-Vector-Machine)
+- - 
 
 ### Preprocess the Data
-
-* Preprocess the dataset prior to fitting the model.
-* Perform feature selection and remove unnecessary features.
-* Use `MinMaxScaler` to scale the numerical data.
-* Separate the data into training and testing data.
+* Preprocessing was conducted to the dataset prior to fitting the models.
+* Feature selection and remove unnecessary features was conducted fro all models.
+* I used `MinMaxScaler` to scale the numerical data.
+* I Separate the data into training and testing data.
 
 ### Tune Model Parameters
 
-* Use `GridSearch` to tune model parameters.
-* Tune and compare at least two different classifiers.
+* I used `GridSearch` to tune model parameters.
+* I tuned and compare the reported classifiers.
 
 ### Reporting
 
