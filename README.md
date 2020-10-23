@@ -8,15 +8,12 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 
 1. [Preprocess the raw data](#Preprocessing-the-Data)
 2. [Tune the models](#Tune-Model-Parameters)
-3. [Compare two or more models](#Evaluate-Model-Performance)
-
-### Models Used
-In this project I used five machine learning models in order to tarin, test and classifying candidate exoplanets from the raw dataset. In the reporting section summary about the findings and assumptions of models is described. 
-4. [K-Nearest Neighbors Algorithm](#K-Nearest-Neighbors-Algorithm) 
-5. [Logistic_Regression](#Logistic-Regression)
-6. [Neural_Networks_and_Deep_Learning](#Neural_Networks_and_Deep_Learning)
-7. [Random_Forest](#Random_forest)
-8. [Support Vector Machine(SVM)](#Support-Vector-Machine)
+3. [Reporting](#Reporting)
+    * [K-Nearest Neighbors Algorithm](#K-Nearest-Neighbors-Algorithm) 
+    * [Logistic_Regression](#Logistic-Regression)
+    * [Neural_Networks_and_Deep_Learning](#Neural_Networks_and_Deep_Learning)
+    * [Random_Forest](#Random_forest)
+    * [Support Vector Machine(SVM)](#Support-Vector-Machine)
 - - 
 
 ### Preprocess the Data
@@ -31,9 +28,17 @@ In this project I used five machine learning models in order to tarin, test and 
 * I tuned and compare the reported classifiers.
 
 ### Reporting
+In this project I used five machine learning models in order to tarin, test and classifying candidate exoplanets from the raw dataset. In the reporting section summary about the findings, assumptions and comparison of models is executed.
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+### K-Nearest Neighbors Algorithm
 
+### Logistic Regression
+
+### Neural Networks and Deep_Learning
+
+### Random Forest
+
+### Support Vector Machine(SVM)
 - - -
 
 ## Resources
@@ -61,13 +66,5 @@ In this project I used five machine learning models in order to tarin, test and 
 - - -
 
 ## Submission
-
-* Create a Jupyter Notebook for each model and host the notebooks on GitHub.
-
-* Create a file for your best model and push to GitHub
-
-* Include a README.md file that summarizes your assumptions and findings.
-
-* Submit the link to your GitHub project to Bootcamp Spot.
 
 ##### © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
