@@ -12,11 +12,11 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 
 ### Models Used
 In this project I used five machine learning models in order to tarin, test and classifying candidate exoplanets from the raw dataset. In the reporting section summary about the findings and assumptions of models is described. 
-4.[K-Nearest Neighbors Algorithm](#K-Nearest-Neighbors-Algorithm) 
-5.[Logistic_Regression](Logistic-Regression)
-6.[Neural_Networks_and_Deep_Learning](#Neural_Networks_and_Deep_Learning)
-7.[Random_Forest](#Random_forest)
-8.[Support Vector Machine(SVM)](Support-Vector-Machine)
+4. [K-Nearest Neighbors Algorithm](#K-Nearest-Neighbors-Algorithm) 
+5. [Logistic_Regression](#Logistic-Regression)
+6. [Neural_Networks_and_Deep_Learning](#Neural_Networks_and_Deep_Learning)
+7. [Random_Forest](#Random_forest)
+8. [Support Vector Machine(SVM)](#Support-Vector-Machine)
 - - 
 
 ### Preprocess the Data
