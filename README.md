@@ -63,12 +63,9 @@ In this project I used five machine learning models in order to tarin, test and 
   ![K-Nearest Neighbors Classification Report](/all_ML_code/image/Knn_classifier.png)
  
  #### Neural Networks and Deep_Learning
- 
-- Normal Neural Network - Loss: 0.2826294135174435, Accuracy: 0.8787185549736023
-- Deep Neural Network - Loss: 0.2919023224500006, Accuracy: 0.8655606508255005
 
-  ![Neural Network Plot](/all_ML_code/image/neuralnetwork.png)
-  
+- Normal Neural Network - Loss: 0.2826294135174435, Accuracy: 0.8787185549736023
+- Deep Neural Network - Loss: 0.2919023224500006, Accuracy: 0.8655606508255005  
 ### Comaprison Summary
 
 The logistic regression training and test score significantly increases BeforeCV and AfterCV but comparing the other model's value was lower. The f1-score of FALSE POSITIVE for the logistic regression model is 0.89 meaning, it can predict FALSE POSITIVE well, and it's reliable, but comparing random forest (0.98) and K-Nearest Neighbors(0.98), which the value is 0.98 it is lower. Random Forest model's best score of (0.89) seems better than the SVM model (0.87) when comparing the scores. The Normal Neural Network accuracy(0.87) is better than Deep Neural Network(0.86).
