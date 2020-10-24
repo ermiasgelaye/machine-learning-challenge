@@ -9,11 +9,11 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 1. [Preprocess the raw data](#Preprocessing-the-Data)
 2. [Tune the models](#Tune-Model-Parameters)
 3. [Reporting](#Reporting)
-    * [K-Nearest Neighbors Algorithm](#K-Nearest-Neighbors-Algorithm) 
     * [Logistic_Regression](#Logistic-Regression)
-    * [Neural_Networks_and_Deep_Learning](#Neural_Networks_and_Deep_Learning)
     * [Random_Forest](#Random_forest)
     * [Support Vector Machine(SVM)](#Support-Vector-Machine)
+    * [K-Nearest Neighbors Algorithm](#K-Nearest-Neighbors-Algorithm) 
+    * [Neural_Networks_and_Deep_Learning](#Neural_Networks_and_Deep_Learning)
 
 ### Preprocess the Data
 * Preprocessing was conducted to the dataset prior to fitting the models.
@@ -33,42 +33,42 @@ In this project I used five machine learning models in order to tarin, test and 
  #### Logistic Regression
   |               | BeforeCV      | AfterCV       |
   |:-------------:|:-------------:|:-------------:|
-  |Training Score | 0.995         | 1.0           |
-  |Testing Score  | 0.883         | 0.899         |
+  |Training Score | 0.749         | 0.872         |
+  |Testing Score  | 0.757         | 0.864         |
  
  ![Logistic Regression Classification Report](/all_ML_code/image/logisticregression_classifier.png)
 
  #### Random Forest
   |               | BeforeCV      | AfterCV       |
   |:-------------:|:-------------:|:-------------:|
-  |Training Score | 0.995         | 1.0           |
-  |Testing Score  | 0.883         | 0.899         |
+  |Training Score | 1.0           | 1.0           |
+  |Testing Score  | 0.897         | 0.899         |
 
 ![Random_Forest Classification Report](/all_ML_code/image/randomforest_classifier.png)
- 
- #### K-Nearest Neighbors Algorithm
-  |               | BeforeCV      | AfterCV       |
-  |:-------------:|:-------------:|:-------------:|
-  |Training Score | 0.995         | 1.0           |
-  |Testing Score  | 0.883         | 0.899         |
-  
-  ![Random_Forest Classification Report](/all_ML_code/image/Knn_classifier.png)
  
  #### Support Vector Machine(SVM)
   |               | BeforeCV      | AfterCV       |
   |:-------------:|:-------------:|:-------------:|
-  |Training Score | 0.995         | 1.0           |
-  |Testing Score  | 0.883         | 0.899         |
+  |Training Score | 0.845         | 0.886         |
+  |Testing Score  | 0.841         | 0.879         |
   
-  ![Random_Forest Classification Report](/all_ML_code/image/svm_classifier.png)
- 
- #### Neural Networks and Deep_Learning
+ ![Support Vector Machine Classification Report](/all_ML_code/image/svm_classifier.png)
+  
+ #### K-Nearest Neighbors
   |               | BeforeCV      | AfterCV       |
   |:-------------:|:-------------:|:-------------:|
-  |Training Score | 0.995         | 1.0           |
-  |Testing Score  | 0.883         | 0.899         |
+  |Training Score | 0.675         | 1.0           |
+  |Testing Score  | 0.636         | 0.842         |
   
-  ![Random_Forest Classification Report](/all_ML_code/image/neuralnetwork.png)
+  ![K-Nearest Neighbors Classification Report](/all_ML_code/image/Knn_classifier.png)
+ 
+ #### Neural Networks and Deep_Learning
+ 
+Normal Neural Network - Loss: 0.2826294135174435, Accuracy: 0.8787185549736023
+Deep Neural Network - Loss: 0.2919023224500006, Accuracy: 0.8655606508255005
+
+
+  ![Neural Network Plot](/all_ML_code/image/neuralnetwork.png)
 - - -
 
 ## Resources
