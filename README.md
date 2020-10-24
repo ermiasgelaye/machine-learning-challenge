@@ -31,14 +31,44 @@ In this project I used five machine learning models in order to tarin, test and 
 
 
  #### Logistic Regression
+  |               | BeforeCV      | AfterCV       |
+  |:-------------:|:-------------:|:-------------:|
+  |Training Score | 0.995         | 1.0           |
+  |Testing Score  | 0.883         | 0.899         |
+ 
+ ![Logistic Regression Classification Report](/all_ML_code/image/logisticregression_classifier.png)
 
  #### Random Forest
+  |               | BeforeCV      | AfterCV       |
+  |:-------------:|:-------------:|:-------------:|
+  |Training Score | 0.995         | 1.0           |
+  |Testing Score  | 0.883         | 0.899         |
+
+![Random_Forest Classification Report](/all_ML_code/image/randomforest_classifier.png)
  
  #### K-Nearest Neighbors Algorithm
+  |               | BeforeCV      | AfterCV       |
+  |:-------------:|:-------------:|:-------------:|
+  |Training Score | 0.995         | 1.0           |
+  |Testing Score  | 0.883         | 0.899         |
+  
+  ![Random_Forest Classification Report](/all_ML_code/image/Knn_classifier.png)
  
  #### Support Vector Machine(SVM)
+  |               | BeforeCV      | AfterCV       |
+  |:-------------:|:-------------:|:-------------:|
+  |Training Score | 0.995         | 1.0           |
+  |Testing Score  | 0.883         | 0.899         |
+  
+  ![Random_Forest Classification Report](/all_ML_code/image/svm_classifier.png)
  
  #### Neural Networks and Deep_Learning
+  |               | BeforeCV      | AfterCV       |
+  |:-------------:|:-------------:|:-------------:|
+  |Training Score | 0.995         | 1.0           |
+  |Testing Score  | 0.883         | 0.899         |
+  
+  ![Random_Forest Classification Report](/all_ML_code/image/neuralnetwork.png)
 - - -
 
 ## Resources
