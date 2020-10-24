@@ -68,7 +68,7 @@ In this project I used five machine learning models in order to tarin, test and 
 - Deep Neural Network - Loss: 0.2919023224500006, Accuracy: 0.8655606508255005  
 ### Comaprison Summary
 
-The logistic regression training and test score significantly increases BeforeCV and AfterCV but comparing the other model's the value was lower. The f1-score of FALSE POSITIVE for the logistic regression model is 0.89 meaning, it can predict FALSE POSITIVE well, and it's reliable, but comparing random forest (0.98) and K-Nearest Neighbors(0.98), which the value is 0.98 it is lower. Random Forest model's best score of (0.89) seems better than the SVM model (0.87) when comparing the scores. The Normal Neural Network accuracy(0.87) is better than Deep Neural Network(0.86).
+The logistic regression training and test score significantly increases BeforeCV and AfterCV but comparing the other model's the value was lower. The f1-score of FALSE POSITIVE for the logistic regression model is 0.89 meaning, it can predict FALSE POSITIVE well, and it's reliable, but comparing random forest (0.98) and K-Nearest Neighbors(0.98) it is lower. Random Forest model's best score of (0.89) seems better than the SVM model (0.87) when comparing the scores. The Normal Neural Network accuracy(0.87) is better than Deep Neural Network(0.86).
 
 In general, from the executed machine learning models on the given exoplanets dataset, I found that the random forest model is better to predict the data. It was a good experience to know which machine learning model does what and comparing the training, testing, accuracy, recall, precision results of the models. 
 
