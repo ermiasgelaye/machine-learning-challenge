@@ -1,54 +1,76 @@
-# Machine Learning Homework - Exoplanet Exploration
+# Machine Learning- Exoplanet Exploration
 
 ![exoplanets.jpg](Images/exoplanets.jpg)
 
-### Before You Begin
-
-1. Create a new repository for this project called `machine-learning-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Give each model you choose their own Jupyter notebook, **do not use more than one model per notebook.**
-
-4. Save your best model to a file. This will be the model used to test your accuracy and used for grading.
-
-5. Commit your Jupyter notebooks and model file and push them to GitHub.
-
-## Note
-
-Keep in mind that this homework is optional! However, you will gain a much greater understanding of testing and tuning different Classification models if you do complete it.
-
 ## Background
 
-Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
+Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system. To help process this data,a machine learning models were created to classifying candidate exoplanets from the raw dataset.
 
-To help process this data, you will create machine learning models capable of classifying candidate exoplanets from the raw dataset.
-
-In this homework assignment, you will need to:
-
-1. [Preprocess the raw data](#Preprocessing)
+1. [Preprocess the raw data](#Preprocessing-the-Data)
 2. [Tune the models](#Tune-Model-Parameters)
-3. [Compare two or more models](#Evaluate-Model-Performance)
-
-- - -
-
-## Instructions
+3. [Reporting](#Reporting)
+    * [Logistic_Regression](#Logistic-Regression)
+    * [Random_Forest](#Random_forest)
+    * [Support Vector Machine(SVM)](#Support-Vector-Machine)
+    * [K-Nearest Neighbors Algorithm](#K-Nearest-Neighbors-Algorithm) 
+    * [Neural_Networks_and_Deep_Learning](#Neural_Networks_and_Deep_Learning)
 
 ### Preprocess the Data
-
-* Preprocess the dataset prior to fitting the model.
-* Perform feature selection and remove unnecessary features.
-* Use `MinMaxScaler` to scale the numerical data.
-* Separate the data into training and testing data.
+* Preprocessing was conducted to the dataset prior to fitting the models.
+* Feature selection and remove unnecessary features was conducted fro all models.
+* I used `MinMaxScaler` to scale the numerical data.
+* I Separate the data into training and testing data.
 
 ### Tune Model Parameters
 
-* Use `GridSearch` to tune model parameters.
-* Tune and compare at least two different classifiers.
+* I used `GridSearch` to tune model parameters.
+* I tuned and compare the reported classifiers.
 
 ### Reporting
+In this project I used five machine learning models in order to tarin, test and classifying candidate exoplanets from the raw dataset. In the reporting section summary about the findings, assumptions and comparison of models is executed.
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+ #### Logistic Regression
+ 
+  |               | BeforeCV      | AfterCV       |
+  |:-------------:|:-------------:|:-------------:|
+  |Training Score | 0.749         | 0.872         |
+  |Testing Score  | 0.757         | 0.864         |
+ 
+ ![Logistic Regression Classification Report](/all_ML_code/image/logisticregression_classifier.png)
+
+ #### Random Forest
+  |               | BeforeCV      | AfterCV       |
+  |:-------------:|:-------------:|:-------------:|
+  |Training Score | 1.0           | 1.0           |
+  |Testing Score  | 0.897         | 0.899         |
+
+![Random_Forest Classification Report](/all_ML_code/image/randomforest_classifier.png)
+ 
+ #### Support Vector Machine(SVM)
+  |               | BeforeCV      | AfterCV       |
+  |:-------------:|:-------------:|:-------------:|
+  |Training Score | 0.845         | 0.886         |
+  |Testing Score  | 0.841         | 0.879         |
+  
+ ![Support Vector Machine Classification Report](/all_ML_code/image/svm_classifier.png)
+  
+ #### K-Nearest Neighbors
+  |               | BeforeCV      | AfterCV       |
+  |:-------------:|:-------------:|:-------------:|
+  |Training Score | 0.675         | 1.0           |
+  |Testing Score  | 0.636         | 0.842         |
+  
+  ![K-Nearest Neighbors Classification Report](/all_ML_code/image/Knn_classifier.png)
+ 
+ #### Neural Networks and Deep_Learning
+
+- Normal Neural Network - Loss: 0.2826294135174435, Accuracy: 0.8787185549736023
+- Deep Neural Network - Loss: 0.2919023224500006, Accuracy: 0.8655606508255005  
+### Comaprison Summary
+
+The logistic regression training and test score significantly increases BeforeCV and AfterCV but comparing the other model's the value was lower. The f1-score of FALSE POSITIVE for the logistic regression model is 0.89 meaning, it can predict FALSE POSITIVE well, and it's reliable, but comparing random forest (0.98) and K-Nearest Neighbors(0.98), which the value is 0.98 it is lower. Random Forest model's best score of (0.89) seems better than the SVM model (0.87) when comparing the scores. The Normal Neural Network accuracy(0.87) is better than Deep Neural Network(0.86).
+
+In general, from the executed machine learning models on the given exoplanets dataset, I found that the random forest model is better to predict the data. It was a good experience to know which machine learning model does what and comparing the training, testing, accuracy, recall, precision results of the models. 
 
 - - -
 
@@ -64,26 +86,5 @@ In this homework assignment, you will need to:
 
 - - -
 
-## Hints and Considerations
-
-* Start by cleaning the data, removing unnecessary columns, and scaling the data.
-
-* Not all variables are significant be sure to remove any insignificant variables.
-
-* Make sure your `sklearn` package is up to date.
-
-* Try a simple model first, and then tune the model using `GridSearch`.
-
-- - -
-
-## Submission
-
-* Create a Jupyter Notebook for each model and host the notebooks on GitHub.
-
-* Create a file for your best model and push to GitHub
-
-* Include a README.md file that summarizes your assumptions and findings.
-
-* Submit the link to your GitHub project to Bootcamp Spot.
 
 ##### © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
